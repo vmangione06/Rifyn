@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rifyn - Solar made simple with no sales calls. Get your solar proposal in minutes.">
+    <title>Rifyn - Solar Made Simple</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Rifyn</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Regulated IT for You Now — Solar Made Simple</h1>
+            <p>No salesmen, no cold calls. Just quick, transparent solar proposals tailored for your home.</p>
+            <a href="#proposal-form" class="cta-button">Get Your Solar Proposal</a>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Upload Your Bill</h3>
+                    <p>Easily upload your electric bill to get started.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Confirm Home Ownership</h3>
+                    <p>Verify that you're the homeowner.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Instant Proposal</h3>
+                    <p>Get a personalized solar proposal instantly, with options to lease or finance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Proposal Form -->
+    <section id="proposal-form" class="proposal-form">
+        <div class="container">
+            <h2>Get Your Solar Proposal</h2>
+            <form id="solar-form">
+                <label for="bill-upload">Upload Your Electric Bill</label>
+                <input type="file" id="bill-upload" name="bill" required>
+
+                <label for="home-owner">Confirm Home Ownership</label>
+                <input type="checkbox" id="home-owner" required>
+                <label for="home-owner">I confirm that I am the homeowner</label>
+
+                <button type="submit" class="cta-button">Get My Proposal</button>
+            </form>
+            <div id="proposal-result" class="proposal-result" style="display:none;">
+                <h3>Your Solar Proposal</h3>
+                <p>Estimated Savings: $X per month</p>
+                <p>Choose a financing option: Lease or Finance</p>
+                <button>Request More Info</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Rifyn is here to offer homeowners an easy, hassle-free solar experience. We believe in transparency, speed, and customer satisfaction. We've partnered with leading solar providers to offer competitive pricing and quick service.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rifyn. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
