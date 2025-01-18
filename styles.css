@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.how-it-works {
+    padding: 60px 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    max-width: 250px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.proposal-form {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.proposal-form h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.proposal-form form {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.proposal-form label {
+    font-size: 18px;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.proposal-form input, .proposal-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.proposal-result {
+    margin-top: 20px;
+}
+
+.about-us, .contact-us {
+    padding: 60px 0;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column;
+    }
+
+    .step {
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+
+    .proposal-form form {
+        text-align: center;
+    }
+}
